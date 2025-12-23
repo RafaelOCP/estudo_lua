@@ -1,0 +1,19 @@
+local vetor = {}
+
+print("Quantos valores deseja inserir?")
+local n = tonumber(io.read())
+
+for i = 1, n do
+    print("Digite o valor " .. i .. ":")
+    vetor[i] = tonumber(io.read())
+end
+
+local maior = vetor[1]
+
+for _, valor in ipairs(vetor) do
+    if valor > maior then
+        maior = valor
+    end
+end
+
+print("O maior valor da lista é:", maior)
