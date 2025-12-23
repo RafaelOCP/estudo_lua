@@ -13,7 +13,7 @@ inicio
       leia(vetor[i])
    fimpara
 
-   // Inicializa o maior 3 o menor com o primeiro elemento
+   // Inicializa o maior e o menor com o primeiro elemento
    maior <- vetor[1]
    menor <- vetor[1]
 
