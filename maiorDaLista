@@ -1,3 +1,36 @@
+--[[algoritmo "MaiorMenorValorVetor"
+var
+   n, i: inteiro
+   vetor: vetor[1..1000] de inteiro
+   maior, menor: inteiro
+inicio
+   escreva("Informe a quantidade de elementos do vetor: ")
+   leia(n)
+
+   // Leitura dos valores
+   para i de 1 ate n faca
+      escreva("Digite o valor ", i, ": ")
+      leia(vetor[i])
+   fimpara
+
+   // Inicializa o maior com o primeiro elemento
+   maior <- vetor[1]
+   menor <- menor[1]
+
+   // Percorre o vetor para encontrar o maior valor
+   para i de 2 ate n faca
+      se vetor[i] > maior entao
+         maior <- vetor[i]
+      fimse
+      se i de 2 até n faça
+         menor <- vetor[i]
+      fimse
+   fimpara
+
+   escreval("O maior valor do vetor é: ", maior)
+   escreval("O menor valor do vetor é: ", menor)
+fimalgoritmo]]
+
 local vetor = {}
 
 print("Quantos valores deseja inserir?")
