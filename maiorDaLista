@@ -1,4 +1,4 @@
---[[algoritmo "MaiorMenorValorVetor"
+--[[algoritmo "maiorMenorValorVetor"
 var
    n, i: inteiro
    vetor: vetor[1..1000] de inteiro
