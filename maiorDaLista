@@ -13,11 +13,11 @@ inicio
       leia(vetor[i])
    fimpara
 
-   // Inicializa o maior com o primeiro elemento
+   // Inicializa o maior 3 o menor com o primeiro elemento
    maior <- vetor[1]
    menor <- menor[1]
 
-   // Percorre o vetor para encontrar o maior valor
+   // Percorre o vetor para encontrar o maior e o menor valor
    para i de 2 ate n faca
       se vetor[i] > maior entao
          maior <- vetor[i]
