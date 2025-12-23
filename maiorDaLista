@@ -8,12 +8,16 @@ for i = 1, n do
     vetor[i] = tonumber(io.read())
 end
 
-local maior = vetor[1]
+local maior, menor = vetor[1], vetor[1]
 
 for _, valor in ipairs(vetor) do
     if valor > maior then
         maior = valor
     end
+  if valor < menor then
+    menor = valor
+  end
 end
 
 print("O maior valor da lista é:", maior)
+print("O menor valor da lista é:", menor)
